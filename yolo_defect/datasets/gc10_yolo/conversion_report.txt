@@ -1,0 +1,29 @@
+source: E:\Code\CV_EXP\CV_Final\yolo_defect\datasets\GC10-DET-meta
+output: E:\Code\CV_EXP\CV_Final\yolo_defect\datasets\gc10_yolo
+classes: 10
+train_images: 1834
+val_images: 458
+missing_images_for_xml: 0
+images_without_xml: 8
+
+class_counts:
+  0: chongkong -> 329
+  1: hanfeng -> 514
+  2: yueyawan -> 265
+  3: shuiban -> 354
+  4: youban -> 569
+  5: siban -> 884
+  6: yiwu -> 347
+  7: yahen -> 85
+  8: zhehen -> 74
+  9: yaozhed -> 143
+
+image_without_xml:
+  img_02_4406772100_00175.jpg
+  img_05_425382900_00002.jpg
+  img_06_3402617700_00988.jpg
+  img_06_425614600_00429.jpg
+  img_06_425614600_00438.jpg
+  img_07_3436814000_00020.jpg
+  img_07_436164700_01539.jpg
+  img_08_4406743300_00407.jpg

@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs and IDE noise
+.venv/
+.idea/
+.vscode/
+
+# Dataset payloads
+datasets/GC10-DET-meta/.git/
+datasets/GC10-DET-meta/1/
+datasets/GC10-DET-meta/2/
+datasets/GC10-DET-meta/3/
+datasets/GC10-DET-meta/4/
+datasets/GC10-DET-meta/5/
+datasets/GC10-DET-meta/6/
+datasets/GC10-DET-meta/7/
+datasets/GC10-DET-meta/8/
+datasets/GC10-DET-meta/9/
+datasets/GC10-DET-meta/10/
+datasets/GC10-DET-meta/lable/
+datasets/gc10_yolo/images/
+datasets/gc10_yolo/labels/
+datasets/gc10_yolo/*.cache
+
+# Experiment artifacts
+third_party/yolov5/runs/
+third_party/yolov5/*.pt
+
+# Third-party repository metadata
+third_party/yolov5/.git/
